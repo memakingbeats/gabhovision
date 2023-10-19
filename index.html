@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Gabho Vision</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Montserrat:100, 200,300,400,700&display=swap"
+        />
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        />
+        <link rel="stylesheet" href="/style.css" />
+    </head>
+    <body>
+        <div class="container" style="position: relative; padding: 0">
+            <!-- Move the navbar inside the container for proper positioning -->
+            <nav
+                class="navbar navbar-expand-lg navbar-light"
+                style="
+                    position: absolute;
+                    width: 100%;
+                    background-color: transparent;
+                    z-index: 1;
+                "
+            >
+                <a class="navbar-brand" href="#">
+                    <img src="/images/logo3.png" alt="Gabho Vision Logo" />
+                </a>
+                <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                >
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                href="#"
+                                style="color: lightgray"
+                                >Home</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                href="#"
+                                style="color: lightgray"
+                                >Produtos</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                href="#"
+                                style="color: lightgray"
+                                >Contato</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="header-image-container">
+            <img
+                id="glass1"
+                src="/images/glass1.jpg"
+                class="d-block w-100 header-image active"
+                alt="Image 1"
+            />
+            <img
+                id="glass2"
+                src="/images/glass2.jpg"
+                class="d-block w-100 header-image"
+                alt="Image 2"
+            />
+            <div class="text-overlay">
+                <h1>Beleza e Precisão. Ótica</h1>
+            </div>
+        </div>
+        <div class="container" style="position: relative; padding: 0">
+            <div
+                id="myCarousel"
+                class="carousel slide"
+                data-ride="carousel"
+                data-interval="2000"
+            >
+                <div class="carousel-inner" style="height: 200px">
+                    <!-- Single slide with six logos -->
+                    <div class="carousel-item active">
+                        <!-- Logo 1 -->
+                        <img
+                            src="/images//hoya.png"
+                            class="logo"
+                            alt="Logo 1"
+                        />
+                        <!-- Logo 2 -->
+                        <img
+                            src="/images/zeiss.png"
+                            class="logo"
+                            alt="Logo 2"
+                        />
+                        <!-- Logo 3 -->
+                        <img
+                            src="/images/varilux.png"
+                            class="logo"
+                            alt="Logo 3"
+                        />
+                        <!-- Logo 4 -->
+                        <img
+                            src="/images/crizal.png"
+                            class="logo"
+                            alt="Logo 4"
+                        />
+                        <!-- Logo 5 -->
+                        <img
+                            src="/images/autofokus.png"
+                            class="logo"
+                            alt="Logo 5"
+                        />
+                    </div>
+                </div>
+                <!-- Carousel Controls -->
+                <a
+                    class="carousel-control-prev"
+                    href="#myCarousel"
+                    role="button"
+                    data-slide="prev"
+                >
+                    <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a
+                    class="carousel-control-next"
+                    href="#myCarousel"
+                    role="button"
+                    data-slide="next"
+                >
+                    <span
+                        class="carousel-control-next-icon"
+                        ariahidden="true"
+                    ></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Add this section below your carousel -->
+        <div class="container" style="position: relative; padding: 0">
+            <div class="row sobre">
+                <!-- Left Div -->
+                <div class="col-md-6">
+                    <h2 class="par1" style="color: lightgray">SOBRE</h2>
+                    <p class="parag1" style="color: lightgray">
+                        Reconhecida por promover elegância e bem-estar aos seus
+                        clientes, a OCULUM é referência no mercado ótico, desde
+                        1998. Com acessórios e serviços ópticos diferenciados, a
+                        OCULUM possui lojas nos estados de Pernambuco, Ceará,
+                        Rio Grande do Norte, Paraíba, Bahia, Sergipe, Alagoas,
+                        Distrito Federal, Maranhão, Pará, Piauí, São Paulo, Mato
+                        Grosso, Mato Grosso do Sul, Minas Gerais, Paraná e
+                        Espírito Santo.
+                    </p>
+                    <img
+                        class="img1"
+                        src="/images//glass1.jpg"
+                        alt="Left Image"
+                    />
+                </div>
+                <!-- Right Div -->
+                <div class="col-md-6">
+                    <img
+                        class="img2"
+                        src="/images/oculos.png"
+                        alt="Right Image"
+                    />
+                    <h2 class="par2" style="color: lightgray">
+                        MAIS QUE UMA ÓTICA
+                    </h2>
+                    <p class="parag2" style="color: lightgray">
+                        Com preços acessíveis, competitivos com o mercado
+                        europeu e ótimas condições de pagamento,a OCULUM é
+                        também referência em moda, com ofertas de lançamentos
+                        simultâneos aos da Europa, sob criteriosa seleção de
+                        modelos autênticos, com certificado de garantia e nota
+                        fiscal. Essa é a OCULUM. Mais que uma ótica. Uma loja em
+                        constante evolução para atender, sempre com excelência,
+                        um público cada vez mais exigente.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div
+            class="container product"
+            style="position: relative; padding: 290px"
+        >
+            <div class="row prod">
+                <!-- Left Div with Text -->
+                <div class="col-md-6 row2 d-flex flex-column align-items-start">
+                    <h2 class="parag3">PRODUTOS</h2>
+                    <p
+                        class="parag3"
+                        style="
+                            display: flex;
+                            justify-content: center;
+                            width: 100%;
+                        "
+                    >
+                        Confira as novas tendências e lançamentos nacionais e
+                        internacionais na Oculum.
+                    </p>
+                </div>
+                <!-- Right Div with Carousel -->
+                <div
+                    class="col-md-6 image d-flex align-items-center justify-content-center"
+                >
+                    <div>
+                        <img
+                            id="glass3"
+                            src="/images/grau6.png"
+                            class="d-block header-image2 active"
+                            alt="Image 3"
+                        />
+
+                        <img
+                            id="glass4"
+                            src="/images/grau7.png"
+                            class="d-block header-image2"
+                            alt="Image 4"
+                        />
+                        <img
+                            id="glass5"
+                            src="/images/grau3.png"
+                            class="d-block header-image2"
+                            alt="Image 3"
+                        />
+
+                        <img
+                            id="glass6"
+                            src="/images/grau3.png"
+                            class="d-block header-image2"
+                            alt="Image 4"
+                        />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="full-width-container">
+            <img
+                src="/images/loja1.jpg"
+                alt="Description of Image"
+                class="full-width-image"
+            />
+        </div>
+
+        <!-- HTML -->
+
+        <div class="bg-color-before"></div>
+
+        <footer class="text-light py-4">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3 contato">
+                        <h4>CONTATO</h4>
+                        <p>
+                            As facilidades na Oculum são tantas que até para
+                            entrar em contato com a gente você tem várias
+                            opções.
+                        </p>
+                    </div>
+                    <!-- Second Column - WhatsApp Icon -->
+                    <div
+                        class="col-md-3 icons d-flex flex-column align-items-center justify-content-center my-column-padding"
+                    >
+                        <i class="fab fa-whatsapp fa-2x mb-2"></i>
+                        <p>WhatsApp das lojas</p>
+                    </div>
+                    <!-- Third Column - Phone Icon -->
+                    <div
+                        class="col-md-3 icons d-flex flex-column align-items-center justify-content-center my-column-padding"
+                    >
+                        <i class="fas fa-phone-alt fa-2x mb-2"></i>
+                        <p>Televendas</p>
+                    </div>
+                    <!-- Fourth Column - Email Icon -->
+                    <div
+                        class="col-md-3 icons d-flex flex-column align-items-center justify-content-center my-column-padding"
+                    >
+                        <i class="fas fa-envelope fa-2x mb-2"></i>
+                        <p>Mensagem</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <div class="bg-color-after">
+            <div class="container-fluid">
+                <!-- Note the change from 'container' to 'container-fluid' -->
+                <div class="row align-items-center">
+                    <!-- First Column: Logo -->
+                    <div class="col-md-4">
+                        <div class="column-content">
+                            <!-- Place your logo image here -->
+                            <img
+                                src="/images//logo3.png"
+                                alt="Your Logo"
+                                class="img-fluid"
+                            />
+                        </div>
+                    </div>
+
+                    <!-- Second Column: Rights -->
+                    <div class="col-md-4">
+                        <div class="column-content">
+                            <p>
+                                © All rights aOculum Ótica LTDA. CNPJ:
+                                08.563.066/0010-92 Av Fernando Simões Barbosa,
+                                266 salas 508 à 510 Empresarial Wecon Center VI
+                                – Boa Viagem - CEP: 51020-390 - Recife/PE
+                                Atendimento 0800-609-1124 ou 4007-2502 *custo de
+                                ligação local Copyright 2013-2015
+                                www.oculum.com.br - Todos os Direitos
+                                Reservados.reserved
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Third Column: Social Media Icons -->
+                    <div class="col-md-4">
+                        <div class="column-content text-center">
+                            <!-- Icons as before -->
+                            <a
+                                href="https://facebook.com/your_page_link"
+                                class="icon-spacing"
+                                target="_blank"
+                            >
+                                <i
+                                    class="fab fa-facebook-f fa-2x"
+                                    style="color: lightgray"
+                                ></i>
+                            </a>
+                            <a
+                                href="https://instagram.com/your_page_link"
+                                class="icon-spacing"
+                                target="_blank"
+                            >
+                                <i
+                                    class="fab fa-instagram fa-2x"
+                                    style="color: lightgray"
+                                ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            const glass1 = document.getElementById("glass1");
+            const glass2 = document.getElementById("glass2");
+
+            function toggleImages() {
+                glass1.classList.toggle("active");
+                glass2.classList.toggle("active");
+            }
+
+            // Call toggleImages function at an interval (e.g., every 5 seconds)
+            setInterval(toggleImages, 5000);
+        </script>
+        <script>
+            const glass3 = document.getElementById("glass3");
+            const glass4 = document.getElementById("glass4");
+            const glass5 = document.getElementById("glass5");
+            const glass6 = document.getElementById("glass6");
+
+            let currentGlass = 3;
+
+            function toggleImages2() {
+                if (currentGlass === 3) {
+                    glass3.classList.add("active");
+                    glass4.classList.remove("active");
+                    glass5.classList.remove("active");
+                    glass6.classList.remove("active");
+                    currentGlass = 4;
+                } else if (currentGlass === 4) {
+                    glass3.classList.remove("active");
+                    glass4.classList.add("active");
+                    glass5.classList.remove("active");
+                    glass6.classList.remove("active");
+                    currentGlass = 5;
+                } else if (currentGlass === 5) {
+                    glass3.classList.remove("active");
+                    glass4.classList.remove("active");
+                    glass5.classList.add("active");
+                    glass6.classList.remove("active");
+                    currentGlass = 6;
+                } else {
+                    glass3.classList.remove("active");
+                    glass4.classList.remove("active");
+                    glass5.classList.remove("active");
+                    glass6.classList.add("active");
+                    currentGlass = 3;
+                }
+            }
+
+            // Call toggleImages function at an interval (e.g., every 5 seconds)
+            setInterval(toggleImages2, 5000);
+        </script>
+        <!-- Update the JavaScript for the second carousel -->
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+</html>

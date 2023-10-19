@@ -1,0 +1,336 @@
+/* styles.css */
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300; /* Use font-weight 300 for a lighter style */
+  background-color: rgb(25, 27, 26);
+  font-style: normal;
+   margin: 0;
+padding: 0;
+}
+
+
+.container{
+    background-color: rgb(49, 49, 53);
+}
+
+/* Add custom CSS to make the navbar transparent */
+.navbar {
+    background-color: transparent;
+    position: absolute;
+                    width: 97%;
+                    
+                    z-index: 1;
+    
+}
+
+.navbar .nav-link{
+    letter-spacing: 3px;
+}
+
+.navbar img {
+    width: 300px;
+    height: 50px;
+}
+
+/* Add custom CSS to make the navbar appear in front */
+.navbar {
+    background-color: transparent;
+    z-index: 1;
+}
+
+.carousel {
+    z-index: 0;
+    
+}
+
+.text-overlay {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: lightgrey;
+}
+
+.text-overlay h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 66px; /* You can adjust the font size as needed */
+    letter-spacing: 15px;
+}
+
+.header-image-container {
+    position: relative;
+    height: 53rem; /* Set your desired height */
+    overflow: hidden;
+}
+
+.header-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+ .carousel .carousel-item img {
+        width: 100px; /* Set your desired width */
+        height: auto; /* Maintain the aspect ratio */
+    }
+
+     .carousel .carousel-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 200px; /* Set your desired height for the carousel */
+    }
+
+    .logo {
+        width: 150px; /* Adjust the width as needed for your logos */
+        height: auto; /* Maintain aspect ratio */
+        margin: 0 40px; /* Add margin for spacing between logos */
+    }
+
+    .header-image {
+                position: absolute;
+                top: 0;
+                left: 0;
+                opacity: 0;
+                transition: opacity 1s ease-in-out;
+            }
+
+            #glass1.active,
+            #glass2.active {
+                opacity: 1;
+            }
+
+    .header-image2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+#glass3.active,
+#glass4.active,
+#glass5.active,
+#glass6.active {
+    opacity: 1;
+}
+
+            /* Add lines to the carousel with width centered */
+    #myCarousel::before,
+    #myCarousel::after {
+        content: "";
+        display: block;
+        height: 0.4px;
+        width: calc(100% - 200px); /* Adjust the width as needed */
+        background-color: #ffffff; /* Adjust the color as needed */
+        position: absolute;
+        top: 20px;
+        left: 100px; /* Adjust the left value to create space from the edges */
+    }
+
+    #myCarousel::after {
+        top: 180px;
+        bottom: 0;
+    }
+
+    /* Adjust the positioning as needed */
+    .carousel-inner {
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+
+    .container .carousel{
+        background-color: rgb(25, 27, 26);
+    }
+
+
+    .container .sobre{
+        background-color: rgb(25, 27, 26);
+        margin-top: 100px;
+    }
+    .container .row .img1{
+        width: 500px; 
+        margin-left: 20px;  
+        margin-top: 80px;
+        margin-bottom: 30px;
+    }
+
+.container .row .img2{
+    margin-left: 20px; 
+        width: 500px; 
+        margin-top: -80px; 
+        margin-bottom: -80px; 
+    }
+.container .row .par1{
+    font-size: 20px;
+    margin-bottom: 30px;
+    letter-spacing: 20px;
+    
+}
+.container .row .par2{
+    font-size: 60px;
+    margin-bottom: 50px;
+      font-weight: 100; /* Use font-weight 300 for a lighter style */
+      letter-spacing: 20px;
+    
+}
+.container .row .parag1{
+    letter-spacing: 3px;
+    margin-bottom: 0px;
+}
+.container .row .parag2{
+    letter-spacing: 3px;
+    margin-bottom: 90px;
+}
+
+.container .row .parag3{
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    color: lightgrey;
+}
+
+footer .contato, .icons{
+    letter-spacing: 3px;
+    margin-bottom: 0px;
+    color: lightgrey;
+}
+
+
+
+
+
+.header-image2 {
+    max-height: 200%; /* Adjust this percentage as needed */
+    width: 90%;
+    margin-top: 0px;
+}
+
+.container .product {
+    overflow: hidden;
+    
+}
+.row2  .image {
+    flex-shrink: 1;
+    
+}
+
+.container .row2 h2{
+    
+    font-size: 20px;
+}
+
+
+
+.product {
+   
+    width: auto; /* This ensures the container uses Bootstrap's default widths */
+    max-width: 100%;
+    display: flex;         /* Make this a flex container */
+    justify-content: center; /* Center children horizontally */
+    align-items: center;     /* Center children vertically */
+    height: 100px !important;           /* Adjust this to your desired height */
+    position: relative;
+}
+
+.prod {
+    width: 100%;   /* Ensure the row takes the full width of its parent */
+}
+
+.image {
+    position: relative;
+    top: -60px;   /* Adjust this value to shift the image upwards as needed */
+}
+
+
+
+
+
+.full-width-container {
+    width: 100vw; /* 100% of the viewport width */
+    height: 300px; /* Or whatever height you want */
+    overflow: hidden; /* Ensures no horizontal scrollbars and crops the image */
+}
+
+.full-width-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    object-position: center; 
+    display: block; /* Remove any default whitespace below the image */
+}
+
+
+
+footer {
+    background-color: rgb(49, 49, 53);
+    width: 100%; /* Take full width of the browser window */
+    padding-left: 15px; /* Add some padding to the left */
+    padding-right: 15px; /* Add some padding to the right */
+}
+footer {
+    width: 100%; 
+    padding: 20%; /* 20px for top and bottom, 15px for left and right */
+}
+
+.my-column-padding {
+    padding-top: 20px; /* Adjust as needed */
+    padding-bottom: 20px; /* Adjust as needed */
+}
+
+
+
+
+.bg-color-before {
+    background-color: rgb(25, 27, 26);
+    height: 50px; /* Adjust the height as needed */
+}
+
+.bg-color-after {
+    background-color: rgb(25, 27, 26);
+    padding: 0px;
+}
+
+
+
+/* Adjust the row to use flex and ensure columns don't overflow the .bg-color-after div */
+.bg-color-after .row {
+    display: flex;
+    flex-wrap: nowrap; /* Prevents the columns from wrapping to the next line */
+}
+
+/* Ensure columns stay fixed and don't shrink or grow beyond their content */
+.bg-color-after .col-md-4 {
+    flex: 0 0 auto;
+}
+
+.bg-color-after .column-content {
+    max-height: 250px; /* You can adjust this value as per your needs */
+    overflow: auto; /* Adds a scrollbar if content overflows */
+    padding: 10px 0 0 0; /* Optional: to give some inner spacing */
+}
+
+.column-content img {
+    width: 300px;
+    margin-left: 20px;
+}
+
+.column-content p {
+    font-size: 10px;
+    color: lightgray;
+    text-align: justify;
+}
+
+.column-content .icon-spacing {
+    margin: 20px;  /* Adds space around each anchor element containing the icons */
+}
+
+
+
+/* Change width for screens larger than 'lg' breakpoint */
+@media (min-width: 992px) {
+    .container.product {
+        width: 100%; /* Full width on larger screens */
+    }
+}
